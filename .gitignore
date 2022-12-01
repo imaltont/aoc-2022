@@ -1,0 +1,4 @@
+.swo
+.swp
+/build #for the compiled ones
+/resources #for the interpreted ones/scripting

@@ -1,0 +1,50 @@
+* Day 1
+** R
+* Day 2
+** Cell
+* Day 3
+** Scheme
+* Day 4
+** Ocaml
+* Day 5
+** Go
+* Day 6
+** Haskell
+* Day 7
+** Fortran
+* Day 8
+** Oz
+* Day 9
+** C
+* Day 10
+** Lua
+* Day 11
+** Common Lisp
+* Day 12
+** Eiffel
+* Day 13
+** Julia
+* Day 14
+** Haxe
+* Day 15
+** Python
+* Day 16
+** Hare
+* Day 17
+** Carp
+* Day 18
+** Ada
+* Day 19
+** Erlang
+* Day 20
+** Javascript
+* Day 21
+** Prolog
+* Day 22
+** Octave
+* Day 23
+** Clojure
+* Day 24
+** Rust
+* Day 25
+** Zig
