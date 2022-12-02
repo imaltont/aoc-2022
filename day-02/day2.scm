@@ -15,31 +15,25 @@
 		     (,c . ,c-v))))
 	 (+ v (cdr (assq opp vals))))))))
 
+(define (parse-rps rps-string get-fun get-var)
+  (let* ((split-rps (string-split rps-string #\space))
+	 (rps-fun (string->symbol (string-downcase (get-fun split-rps))))
+	 (rps-val (string->symbol (string-downcase (get-var split-rps)))))
+     ((eval rps-fun (interaction-environment)) rps-val)))
+
 (define-rps x 3 0 6 1 'a 'b 'c)
 (define-rps y 6 3 0 2 'a 'b 'c)
 (define-rps z 0 6 3 3 'a 'b 'c)
 
-(define (parse-rps rps-string)
-  (let* ((split-rps (string-split rps-string #\space))
-	 (rps-fun (string->symbol (string-downcase (cadr split-rps))))
-	 (rps-val (string->symbol (string-downcase (car split-rps)))))
-     ((eval rps-fun (interaction-environment)) rps-val)))
+(define (part1)
+  (apply + (map (lambda (x) (parse-rps x cadr car)) outcomes)))
 
 (define-rps a 3 4 8 0 'x 'y 'z)
 (define-rps b 1 5 9 0 'x 'y 'z)
 (define-rps c 2 6 7 0 'x 'y 'z)
 
-(define (parse-rps-outcome rps-string)
-  (let* ((split-rps (string-split rps-string #\space))
-	 (rps-val (string->symbol (string-downcase (cadr split-rps))))
-	 (rps-fun (string->symbol (string-downcase (car split-rps)))))
-     ((eval rps-fun (interaction-environment)) rps-val)))
-
-(define (part1)
-  (apply + (map parse-rps outcomes)))
-
 (define (part2)
-  (apply + (map parse-rps-outcome outcomes)))
+  (apply + (map (lambda (x) (parse-rps x car cadr)) outcomes)))
 
 (newline)
 (display (part1))
