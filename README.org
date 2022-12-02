@@ -1,9 +1,9 @@
 - [X] Day 1, R
   - [X] Task 1
   - [X] Task 2
-- [ ] Day 2, Scheme
-  - [ ] Task 1
-  - [ ] Task 2
+- [X] Day 2, Scheme
+  - [X] Task 1
+  - [X] Task 2
 - [ ] Day 3, Cell
   - [ ] Task 1
   - [ ] Task 2
