@@ -4,10 +4,10 @@
 - [X] Day 2, Scheme
   - [X] Task 1
   - [X] Task 2
-- [ ] Day 3, Cell
-  - [ ] Task 1
-  - [ ] Task 2
-- [ ] Day 4, Ocaml
+- [X] Day 3, APL
+  - [X] Task 1
+  - [X] Task 2
+- [ ] Day 4, Eiffel
   - [ ] Task 1
   - [ ] Task 2
 - [ ] Day 5, Go
@@ -28,10 +28,10 @@
 - [ ] Day 10, Lua
   - [ ] Task 1
   - [ ] Task 2
-- [ ] Day 11, Common
+- [ ] Day 11, Common Lisp
   - [ ] Task 1
   - [ ] Task 2
-- [ ] Day 12, Eiffel
+- [ ] Day 12, Ocaml
   - [ ] Task 1
   - [ ] Task 2
 - [ ] Day 13, Julia
@@ -73,3 +73,29 @@
 - [ ] Day 25, Zig
   - [ ] Task 1
   - [ ] Task 2
+
+* Potential alternatives:
+** Safe
+ - Java
+ - C#
+ - F#
+ - Emacs Lisp
+ - Scala
+ - C++
+ - Racket
+** Unknown/Unsure
+ - Nim
+ - Reason
+ - Cell
+ - Elm
+ - D
+ - Awk
+ - Elixir
+ - Kotlin
+ - Mercury
+ - Pony
+ - Vala
+ - Forth
+ - Fortress
+ - Smalltalk
+ - Pascal
