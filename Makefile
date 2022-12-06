@@ -8,3 +8,5 @@ day4-run:
 	cd ./day-04/; make
 day5-run:
 	cd ./day-05/; make
+day6-run:
+	cd ./day-06/; make

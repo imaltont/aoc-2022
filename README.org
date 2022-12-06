@@ -13,9 +13,9 @@
 - [X] Day 5, Go
   - [X] Task 1
   - [X] Task 2
-- [ ] Day 6, Haskell
-  - [ ] Task 1
-  - [ ] Task 2
+- [X] Day 6, Haskell
+  - [X] Task 1
+  - [X] Task 2
 - [ ] Day 7, Lua
   - [ ] Task 1
   - [ ] Task 2
@@ -99,3 +99,4 @@
  - Fortress
  - Smalltalk
  - Pascal
+   
