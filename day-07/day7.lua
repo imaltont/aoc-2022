@@ -1,7 +1,21 @@
 #!/usr/bin/luajit
 directories = {}
 
--- Read file
+function init_dir(path)
+   directories[path] = {}
+   directories[path].directories = {}
+   directories[path].files = {}
+   directories[path].size = nil
+end
+function get_sub_path(current_path, word)
+   local localdir = ""
+   if current_path == "/" then
+      localdir = current_path .. word
+   else
+      localdir = current_path .. "/" .. word
+   end
+   return localdir
+end
 function parse_commands(path)
    local current_dir = nil
    directories = {}
@@ -15,52 +29,27 @@ function parse_commands(path)
 	    if words[3] == "/" then
 	       current_dir = "/"
 	       if #directories == 0 then
-		  directories[current_dir] = {}
-		  directories[current_dir] = {}
-		  directories[current_dir].directories = {}
-		  directories[current_dir].files = {}
-		  directories[current_dir].size = nil
+		  init_dir(current_dir)
 	       end
 	    elseif words[3] == ".." then
 	       current_dir = current_dir:gsub("/%w+$", "")
 	    else
-	       local localdir = ""
-	       if current_dir == "/" then
-		  localdir = current_dir .. words[3]
-	       else
-		  localdir = current_dir .. "/" .. words[3]
-	       end
-	       current_dir = localdir
+	       current_dir = get_sub_path(current_dir, words[3])
 	       if directories[current_dir] == nil then
-		  directories[current_dir] = {}
-		  directories[current_dir].directories = {}
-		  directories[current_dir].files = {}
-		  directories[current_dir].size = nil
+		  init_dir(current_dir)
 	       end
 	    end
 	 end
-      elseif words[1] == "dir" then
-	 local localdir = ""
-	 if current_dir == "/" then
-	    localdir = current_dir .. words[2]
-	 else
-	    localdir = current_dir .. "/" .. words[2]
-	 end
-	 if directories[current_dir].directories[localdir] == nil then
-	    directories[localdir] = {}
-	    directories[localdir].directories = {}
-	    directories[localdir].files = {}
-	    directories[localdir].size = nil
-	    directories[current_dir].directories[localdir] = true
-	 end
       else
-	 local localdir = ""
-	 if current_dir == "/" then
-	    localdir = current_dir .. words[2]
+	 local localdir = get_sub_path(current_dir, words[2])
+	 if words[1] == "dir" then
+	    if directories[current_dir].directories[localdir] == nil then
+	       init_dir(localdir)
+	       directories[current_dir].directories[localdir] = true
+	    end
 	 else
-	    localdir = current_dir .. "/" .. words[2]
+	    directories[current_dir].files[localdir] = words[1]
 	 end
-	 directories[current_dir].files[localdir] = words[1]
       end
    end
    return directories
