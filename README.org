@@ -16,9 +16,9 @@
 - [X] Day 6, Haskell
   - [X] Task 1
   - [X] Task 2
-- [ ] Day 7, Lua
-  - [ ] Task 1
-  - [ ] Task 2
+- [X] Day 7, Lua
+  - [X] Task 1
+  - [X] Task 2
 - [ ] Day 8, Oz
   - [ ] Task 1
   - [ ] Task 2
@@ -83,13 +83,22 @@
  - Scala
  - C++
  - Racket
-** Unknown/Unsure
+** Unknown/Unsure/Single-editor-unfriendly
  - Nim
+ - Arc
+ - Bash
+ - Tcl
+ - Carbon
+ - Dylan
+ - Swift
+ - DART
+ - Ruby
  - Reason
  - Cell
  - Elm
  - D
  - Awk
+ - Perl
  - Elixir
  - Kotlin
  - Mercury
@@ -99,4 +108,4 @@
  - Fortress
  - Smalltalk
  - Pascal
-   
+ - COBOL
