@@ -10,6 +10,35 @@ Remember to write a little note on which languages
  - GHC
  - Luajit
  - Python 3
+** Previous usage of the languages used to solve the problems
+*** Fresh usage (within the last year)
+ - Scheme
+ - Python
+ - R
+ - Ocaml
+ - Common Lisp
+ - Rust
+*** Long time since last use (several years since last use)
+ - Lua
+ - C
+ - Javascript
+ - Oz
+*** Never used before (hello world or less)
+ - APL
+ - Eiffel
+ - Go
+ - Haskell
+ - Octave
+ - Carp
+ - Julia
+ - Hare
+ - Ada
+ - Erlang
+ - Haxe
+ - Prolog
+ - Fortran
+ - Clojure
+ - Zig
 * Days/Languages
 - [X] Day 1, R
   - [X] Task 1
@@ -123,3 +152,4 @@ Remember to write a little note on which languages
  - Smalltalk
  - Pascal
  - COBOL
+ - Miranda
