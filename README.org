@@ -1,3 +1,16 @@
+* Notes
+Oz was tried on day 8 but wasn't suited/I wasn't good enough with it to use it on that problem, so it was replaced by a(n ugly/rushed) python solution instead.
+Remember to write a little note on which languages 
+** Compilers needed to run all:
+ - R
+ - Guile
+ - GNU APL
+ - GNU Eiffel
+ - Go
+ - GHC
+ - Luajit
+ - Python 3
+* Days/Languages
 - [X] Day 1, R
   - [X] Task 1
   - [X] Task 2
@@ -19,9 +32,9 @@
 - [X] Day 7, Lua
   - [X] Task 1
   - [X] Task 2
-- [ ] Day 8, Oz
-  - [ ] Task 1
-  - [ ] Task 2
+- [X] Day 8, Python
+  - [X] Task 1
+  - [X] Task 2
 - [ ] Day 9, Octave
   - [ ] Task 1
   - [ ] Task 2
@@ -40,7 +53,7 @@
 - [ ] Day 14, Javascript
   - [ ] Task 1
   - [ ] Task 2
-- [ ] Day 15, Python
+- [ ] Day 15, Oz
   - [ ] Task 1
   - [ ] Task 2
 - [ ] Day 16, Hare
