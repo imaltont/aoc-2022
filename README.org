@@ -1,5 +1,5 @@
 * Notes
-Oz was tried on day 8 but wasn't suited/I wasn't good enough with it to use it on that problem, so it was replaced by a(n ugly/rushed) python solution instead.
+Oz was tried on day 8 and 9 but wasn't suited/I wasn't good enough with it to use it on that problem, so it was replaced by a(n ugly/rushed) python solution instead.
 Remember to write a little note on which languages 
 ** Compilers needed to run all:
  - R
@@ -10,6 +10,7 @@ Remember to write a little note on which languages
  - GHC
  - Luajit
  - Python 3
+ - SBCL
 ** Previous usage of the languages used to solve the problems
 *** Fresh usage (within the last year)
  - Scheme
@@ -64,9 +65,9 @@ Remember to write a little note on which languages
 - [X] Day 8, Python
   - [X] Task 1
   - [X] Task 2
-- [ ] Day 9, Octave
-  - [ ] Task 1
-  - [ ] Task 2
+- [X] Day 9, Common Lisp
+  - [X] Task 1
+  - [X] Task 2
 - [ ] Day 10, C
   - [ ] Task 1
   - [ ] Task 2
@@ -88,7 +89,7 @@ Remember to write a little note on which languages
 - [ ] Day 16, Hare
   - [ ] Task 1
   - [ ] Task 2
-- [ ] Day 17, Common Lisp
+- [ ] Day 17, Octave (will probably be moved around until there is a pure number-based one)
   - [ ] Task 1
   - [ ] Task 2
 - [ ] Day 18, Ada
