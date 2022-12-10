@@ -11,6 +11,7 @@ Remember to write a little note on which languages
  - Luajit
  - Python 3
  - SBCL
+ - GCC
 ** Previous usage of the languages used to solve the problems
 *** Fresh usage (within the last year)
  - Scheme
@@ -68,9 +69,9 @@ Remember to write a little note on which languages
 - [X] Day 9, Common Lisp
   - [X] Task 1
   - [X] Task 2
-- [ ] Day 10, C
-  - [ ] Task 1
-  - [ ] Task 2
+- [X] Day 10, C
+  - [X] Task 1
+  - [X] Task 2
 - [ ] Day 11, Carp
   - [ ] Task 1
   - [ ] Task 2
@@ -83,7 +84,7 @@ Remember to write a little note on which languages
 - [ ] Day 14, Javascript
   - [ ] Task 1
   - [ ] Task 2
-- [ ] Day 15, Oz
+- [ ] Day 15, Oz, Will probably move if problem is not suited
   - [ ] Task 1
   - [ ] Task 2
 - [ ] Day 16, Hare
