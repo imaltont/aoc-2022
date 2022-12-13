@@ -1,5 +1,8 @@
 * Notes
-Oz was tried on day 8 and 9 but wasn't suited/I wasn't good enough with it to use it on that problem, so it was replaced by a(n ugly/rushed) python solution instead.
+Oz was tried on day 8 and 9 but wasn't suited/I wasn't good enough with it to use it on that problem, so it was replaced by a(n ugly/rushed) python solution instead. Common Lisp took its place the 9th.
+Octave was attempted on the 9th.
+Oz took over Carp's entry on the 11th.
+
 Remember to write a little note on which languages 
 ** Compilers needed to run all:
  - R
@@ -79,9 +82,9 @@ Remember to write a little note on which languages
 - [X] Day 12, Ocaml
   - [X] Task 1
   - [X] Task 2
-- [ ] Day 13, Julia
-  - [ ] Task 1
-  - [ ] Task 2
+- [X] Day 13, Julia
+  - [X] Task 1
+  - [X] Task 2
 - [ ] Day 14, Javascript
   - [ ] Task 1
   - [ ] Task 2
@@ -156,3 +159,4 @@ Remember to write a little note on which languages
  - Pascal
  - COBOL
  - Miranda
+   
