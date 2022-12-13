@@ -76,16 +76,16 @@ Remember to write a little note on which languages
 - [X] Day 11, Oz
   - [X] Task 1
   - [X] Task 2
-- [ ] Day 12, Ocaml
-  - [ ] Task 1
-  - [ ] Task 2
+- [X] Day 12, Ocaml
+  - [X] Task 1
+  - [X] Task 2
 - [ ] Day 13, Julia
   - [ ] Task 1
   - [ ] Task 2
 - [ ] Day 14, Javascript
   - [ ] Task 1
   - [ ] Task 2
-- [ ] Day 15, Carp
+- [ ] Day 15, Carp. Should probably be something else but not sure what
   - [ ] Task 1
   - [ ] Task 2
 - [ ] Day 16, Hare
