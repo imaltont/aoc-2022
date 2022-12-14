@@ -1,5 +1,5 @@
 # I really want to find a way to not have to have all of these explicitly stated.
-days = day1-run day2-run day3-run day4-run day5-run day6-run day7-run day8-run day9-run day10-run day11-run day12-run day13-run
+days = day1-run day2-run day3-run day4-run day5-run day6-run day7-run day8-run day9-run day10-run day11-run day12-run day13-run day14-run
 run: $(days)
 	echo "Done"
 day1-run:
@@ -66,4 +66,9 @@ day13-run:
 	echo ""
 	echo "Day 13:"
 	cd ./day-13/; make
+	echo "_______________________________________"
+day14-run:
+	echo ""
+	echo "Day 14:"
+	cd ./day-14/; make
 	echo "_______________________________________"

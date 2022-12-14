@@ -16,6 +16,9 @@ Remember to write a little note on which languages
  - SBCL
  - GCC
  - Mozart2
+ - Ocaml
+ - Julia
+ - Nodejs
 ** Previous usage of the languages used to solve the problems
 *** Fresh usage (within the last year)
  - Scheme
@@ -85,9 +88,9 @@ Remember to write a little note on which languages
 - [X] Day 13, Julia
   - [X] Task 1
   - [X] Task 2
-- [ ] Day 14, Javascript
-  - [ ] Task 1
-  - [ ] Task 2
+- [X] Day 14, Javascript
+  - [X] Task 1
+  - [X] Task 2
 - [ ] Day 15, Carp. Should probably be something else but not sure what
   - [ ] Task 1
   - [ ] Task 2
