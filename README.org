@@ -91,13 +91,13 @@ Remember to write a little note on which languages
 - [X] Day 14, Javascript
   - [X] Task 1
   - [X] Task 2
-- [ ] Day 15, Carp. Should probably be something else but not sure what
-  - [ ] Task 1
-  - [ ] Task 2
+- [X] Day 15, Octave
+  - [X] Task 1
+  - [X] Task 2 (delivered after day 16 was available)
 - [ ] Day 16, Hare
   - [ ] Task 1
   - [ ] Task 2
-- [ ] Day 17, Octave (will probably be moved around until there is a pure number-based one)
+- [ ] Day 17, Carp (will probably be moved around)
   - [ ] Task 1
   - [ ] Task 2
 - [ ] Day 18, Ada
