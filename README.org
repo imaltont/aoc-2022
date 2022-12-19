@@ -2,6 +2,9 @@
 Oz was tried on day 8 and 9 but wasn't suited/I wasn't good enough with it to use it on that problem, so it was replaced by a(n ugly/rushed) python solution instead. Common Lisp took its place the 9th.
 Octave was attempted on the 9th.
 Oz took over Carp's entry on the 11th.
+Carp and Hare was removed for the lack of example-code and documentation. Understandable for smaller/newer languages, but makes it hard to do a 1-day challenge in like this. Hopefully I get to revisit them some day without the time constraint.
+
+Day 15 and 16 both took a considerable amount of time, pushing the coming tasks a bit further ahead, though hopefully I can catch up again. Both getting to the solution and the running time of day 15 and 16 were long, be ware if you try to run them.
 
 Remember to write a little note on which languages 
 ** Compilers needed to run all:
@@ -19,6 +22,8 @@ Remember to write a little note on which languages
  - Ocaml
  - Julia
  - Nodejs
+ - Octave
+ - .NET 7
 ** Previous usage of the languages used to solve the problems
 *** Fresh usage (within the last year)
  - Scheme
@@ -94,10 +99,10 @@ Remember to write a little note on which languages
 - [X] Day 15, Octave
   - [X] Task 1
   - [X] Task 2 (delivered after day 16 was available)
-- [ ] Day 16, Hare
-  - [ ] Task 1
-  - [ ] Task 2
-- [ ] Day 17, Carp (will probably be moved around)
+- [X] Day 16, C#
+  - [X] Task 1
+  - [X] Task 2
+- [ ] Day 17, 
   - [ ] Task 1
   - [ ] Task 2
 - [ ] Day 18, Ada
@@ -128,7 +133,6 @@ Remember to write a little note on which languages
 * Potential alternatives:
 ** Safe
  - Java
- - C#
  - F#
  - Emacs Lisp
  - Scala
@@ -137,7 +141,9 @@ Remember to write a little note on which languages
  - TypeScript
 ** Unknown/Unsure/Single-editor-unfriendly
  - Nim
+ - Carp (will probably be moved around)
  - Arc
+ - Hare
  - Bash
  - Tcl
  - Carbon
