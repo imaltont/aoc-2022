@@ -105,10 +105,10 @@ Remember to write a little note on which languages
 - [X] Day 17, C++
   - [X] Task 1
   - [X] Task 2
-- [ ] Day 18, Ada
-  - [ ] Task 1
-  - [ ] Task 2
-- [ ] Day 19, Fortran
+- [X] Day 18, Fortran
+  - [X] Task 1
+  - [X] Task 2
+- [ ] Day 19, Ada
   - [ ] Task 1
   - [ ] Task 2
 - [ ] Day 20, Haxe
