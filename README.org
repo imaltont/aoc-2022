@@ -18,7 +18,7 @@ Remember to write a little note on which languages
  - Python 3
  - SBCL
  - GCC
- - Mozart2
+ - Mozart2/Oz
  - Ocaml
  - Julia
  - Nodejs
@@ -102,13 +102,13 @@ Remember to write a little note on which languages
 - [X] Day 16, C#
   - [X] Task 1
   - [X] Task 2
-- [ ] Day 17, 
-  - [ ] Task 1
-  - [ ] Task 2
+- [X] Day 17, C++
+  - [X] Task 1
+  - [X] Task 2
 - [ ] Day 18, Ada
   - [ ] Task 1
   - [ ] Task 2
-- [ ] Day 19, Erlang
+- [ ] Day 19, Fortran
   - [ ] Task 1
   - [ ] Task 2
 - [ ] Day 20, Haxe
@@ -117,7 +117,7 @@ Remember to write a little note on which languages
 - [ ] Day 21, Prolog
   - [ ] Task 1
   - [ ] Task 2
-- [ ] Day 22, Fortran
+- [ ] Day 22, Erlang
   - [ ] Task 1
   - [ ] Task 2
 - [ ] Day 23, Clojure
@@ -136,12 +136,11 @@ Remember to write a little note on which languages
  - F#
  - Emacs Lisp
  - Scala
- - C++
  - Racket
  - TypeScript
 ** Unknown/Unsure/Single-editor-unfriendly
  - Nim
- - Carp (will probably be moved around)
+ - Carp
  - Arc
  - Hare
  - Bash
