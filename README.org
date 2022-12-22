@@ -6,6 +6,8 @@ Carp and Hare was removed for the lack of example-code and documentation. Unders
 
 Day 15 and 16 both took a considerable amount of time, pushing the coming tasks a bit further ahead, though hopefully I can catch up again. Both getting to the solution and the running time of day 15 and 16 were long, be ware if you try to run them.
 
+Prolog got replaced on day 20 because I couldn't get GNU Prolog to read any files, and examples from the documentation gave existence errors. Replaced with Java.
+
 Remember to write a little note on which languages 
 ** Compilers needed to run all:
  - R
@@ -25,6 +27,7 @@ Remember to write a little note on which languages
  - Octave
  - .NET 7
  - Haxe (including cpp compiler module)
+ - Java (openjdk 19.0.1)
 ** Previous usage of the languages used to solve the problems
 *** Fresh usage (within the last year)
  - Scheme
@@ -112,9 +115,9 @@ Remember to write a little note on which languages
 - [X] Day 19, Haxe
   - [X] Task 1
   - [X] Task 2
-- [ ] Day 20, Prolog
-  - [ ] Task 1
-  - [ ] Task 2
+- [X] Day 20, Java
+  - [X] Task 1
+  - [X] Task 2
 - [ ] Day 21, Erlang (could also substitute in smalltalk)
   - [ ] Task 1
   - [ ] Task 2
@@ -133,7 +136,6 @@ Remember to write a little note on which languages
 
 * Potential alternatives:
 ** Safe
- - Java
  - F#
  - Emacs Lisp
  - Scala
@@ -168,4 +170,5 @@ Remember to write a little note on which languages
  - Pascal
  - COBOL
  - Miranda
+ - Prolog
    
