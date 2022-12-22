@@ -24,6 +24,7 @@ Remember to write a little note on which languages
  - Nodejs
  - Octave
  - .NET 7
+ - Haxe (including cpp compiler module)
 ** Previous usage of the languages used to solve the problems
 *** Fresh usage (within the last year)
  - Scheme
@@ -108,16 +109,16 @@ Remember to write a little note on which languages
 - [X] Day 18, Fortran
   - [X] Task 1
   - [X] Task 2
-- [ ] Day 19, Ada
+- [X] Day 19, Haxe
+  - [X] Task 1
+  - [X] Task 2
+- [ ] Day 20, Prolog
   - [ ] Task 1
   - [ ] Task 2
-- [ ] Day 20, Haxe
+- [ ] Day 21, Erlang (could also substitute in smalltalk)
   - [ ] Task 1
   - [ ] Task 2
-- [ ] Day 21, Prolog
-  - [ ] Task 1
-  - [ ] Task 2
-- [ ] Day 22, Erlang
+- [ ] Day 22, Ada
   - [ ] Task 1
   - [ ] Task 2
 - [ ] Day 23, Clojure
