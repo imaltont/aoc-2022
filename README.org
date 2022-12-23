@@ -8,8 +8,10 @@ Day 15 and 16 both took a considerable amount of time, pushing the coming tasks 
 
 Prolog got replaced on day 20 because I couldn't get GNU Prolog to read any files, and examples from the documentation gave existence errors. Replaced with Java.
 
+Erlang got replaced because couldn't get used to how it worked. Prolog would have probably gone the same path if I could get it working. Swapped with clojure as it seemed like a nice fit for the day. Replaced by Scala.
+
 Remember to write a little note on which languages 
-** Compilers needed to run all:
+** Compilers/tools needed to run all:
  - R
  - Guile
  - GNU APL
@@ -28,6 +30,8 @@ Remember to write a little note on which languages
  - .NET 7
  - Haxe (including cpp compiler module)
  - Java (openjdk 19.0.1)
+ - Clojure
+ - Maxima
 ** Previous usage of the languages used to solve the problems
 *** Fresh usage (within the last year)
  - Scheme
@@ -41,6 +45,7 @@ Remember to write a little note on which languages
  - C
  - Javascript
  - Oz
+ - Java
 *** Never used before (hello world or less)
  - APL
  - Eiffel
@@ -53,7 +58,6 @@ Remember to write a little note on which languages
  - Ada
  - Erlang
  - Haxe
- - Prolog
  - Fortran
  - Clojure
  - Zig
@@ -102,7 +106,7 @@ Remember to write a little note on which languages
   - [X] Task 2
 - [X] Day 15, Octave
   - [X] Task 1
-  - [X] Task 2 (delivered after day 16 was available)
+  - [X] Task 2
 - [X] Day 16, C#
   - [X] Task 1
   - [X] Task 2
@@ -118,13 +122,13 @@ Remember to write a little note on which languages
 - [X] Day 20, Java
   - [X] Task 1
   - [X] Task 2
-- [ ] Day 21, Erlang (could also substitute in smalltalk)
-  - [ ] Task 1
-  - [ ] Task 2
+- [X] Day 21, Clojure
+  - [X] Task 1
+  - [X] Task 2, requires maxima to run.
 - [ ] Day 22, Ada
   - [ ] Task 1
   - [ ] Task 2
-- [ ] Day 23, Clojure
+- [ ] Day 23, Scala
   - [ ] Task 1
   - [ ] Task 2
 - [ ] Day 24, Rust
@@ -138,7 +142,6 @@ Remember to write a little note on which languages
 ** Safe
  - F#
  - Emacs Lisp
- - Scala
  - Racket
  - TypeScript
 ** Unknown/Unsure/Single-editor-unfriendly
@@ -160,6 +163,7 @@ Remember to write a little note on which languages
  - Awk
  - Perl
  - Elixir
+ - Erlang
  - Kotlin
  - Mercury
  - Pony
@@ -171,4 +175,3 @@ Remember to write a little note on which languages
  - COBOL
  - Miranda
  - Prolog
-   
