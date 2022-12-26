@@ -10,6 +10,8 @@ Prolog got replaced on day 20 because I couldn't get GNU Prolog to read any file
 
 Erlang got replaced because couldn't get used to how it worked. Prolog would have probably gone the same path if I could get it working. Swapped with clojure as it seemed like a nice fit for the day. Replaced by Scala.
 
+Ada was too annoying to work with, both how verbose the language was and gettings its tooling up and running. It is probably fine for larger projects, which it seems to be designed for, but was not great to work with in this setting. Replaced by Pascal.
+
 Remember to write a little note on which languages 
 ** Compilers/tools needed to run all:
  - R
@@ -32,6 +34,7 @@ Remember to write a little note on which languages
  - Java (openjdk 19.0.1)
  - Clojure
  - Maxima
+ - Free Pascal
 ** Previous usage of the languages used to solve the problems
 *** Fresh usage (within the last year)
  - Scheme
@@ -40,23 +43,23 @@ Remember to write a little note on which languages
  - Ocaml
  - Common Lisp
  - Rust
+ - C#
 *** Long time since last use (several years since last use)
  - Lua
  - C
+ - C++
  - Javascript
  - Oz
  - Java
+ - Scala
+ - Pascal
 *** Never used before (hello world or less)
  - APL
  - Eiffel
  - Go
  - Haskell
  - Octave
- - Carp
  - Julia
- - Hare
- - Ada
- - Erlang
  - Haxe
  - Fortran
  - Clojure
@@ -125,7 +128,7 @@ Remember to write a little note on which languages
 - [X] Day 21, Clojure
   - [X] Task 1
   - [X] Task 2, requires maxima to run.
-- [ ] Day 22, Ada
+- [ ] Day 22, Pacal
   - [ ] Task 1
   - [ ] Task 2
 - [ ] Day 23, Scala
@@ -156,6 +159,7 @@ Remember to write a little note on which languages
  - Swift
  - DART
  - Ruby
+ - Kotlin
  - Reason
  - Cell
  - Elm
@@ -164,14 +168,13 @@ Remember to write a little note on which languages
  - Perl
  - Elixir
  - Erlang
- - Kotlin
  - Mercury
  - Pony
  - Vala
  - Forth
  - Fortress
  - Smalltalk
- - Pascal
  - COBOL
  - Miranda
  - Prolog
+ - Ada
