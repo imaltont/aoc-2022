@@ -35,6 +35,7 @@ Remember to write a little note on which languages
  - Clojure
  - Maxima
  - Free Pascal
+ - Scala
 ** Previous usage of the languages used to solve the problems
 *** Fresh usage (within the last year)
  - Scheme
@@ -128,12 +129,12 @@ Remember to write a little note on which languages
 - [X] Day 21, Clojure
   - [X] Task 1
   - [X] Task 2, requires maxima to run.
-- [ ] Day 22, Pacal
-  - [ ] Task 1
-  - [ ] Task 2
-- [ ] Day 23, Scala
-  - [ ] Task 1
-  - [ ] Task 2
+- [X] Day 22, Pacal
+  - [X] Task 1
+  - [X] Task 2
+- [X] Day 23, Scala
+  - [X] Task 1
+  - [X] Task 2
 - [ ] Day 24, Rust
   - [ ] Task 1
   - [ ] Task 2

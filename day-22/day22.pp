@@ -10,13 +10,13 @@ VAR
    i		    : int64;
    INPUT_mode	    : Boolean;
    code		    : int64;
-   direction        : int64;
+   direction	    : int64;
    x		    : int64;
    y		    : int64;
    ch		    : Char;
    word		    : String;
    garbage	    : String;
-FUNCTION dir(current : int64; turn : String): int64;
+FUNCTION dir(current: int64; turn : String): int64;
 VAR
    tmpDir : int64;
 BEGIN

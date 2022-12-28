@@ -50,10 +50,7 @@ public class Day20 {
 				long newTarget = targetIndex;
 				long direction = -1;
 				if (targetIndex >= base) {
-					// while (newTarget >= workingList.size()){
 					newTarget = (targetIndex) % base;
-					// newTarget += 1;
-					// }
 				} else if (targetIndex < 0) {
 					long intermediate = newTarget % base;
 					newTarget = (base + intermediate);
