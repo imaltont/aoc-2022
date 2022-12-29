@@ -1,18 +1,106 @@
-* Notes
-Oz was tried on day 8 and 9 but wasn't suited/I wasn't good enough with it to use it on that problem, so it was replaced by a(n ugly/rushed) python solution instead. Common Lisp took its place the 9th.
-Octave was attempted on the 9th.
-Oz took over Carp's entry on the 11th.
-Carp and Hare was removed for the lack of example-code and documentation. Understandable for smaller/newer languages, but makes it hard to do a 1-day challenge in like this. Hopefully I get to revisit them some day without the time constraint.
+* Experience
+** Challenge
+*** Overall
+Overall this was a pretty fun challenge, though very exhausting some days. Usually with AoC I grow tired of it during the first 10 days, but this challenge kept it fresh enough that I got through it all.
+Almost none (of any at all) of the solutions are idiomatic to the language they belong in.
 
-Day 15 and 16 both took a considerable amount of time, pushing the coming tasks a bit further ahead, though hopefully I can catch up again. Both getting to the solution and the running time of day 15 and 16 were long, be ware if you try to run them.
-
-Prolog got replaced on day 20 because I couldn't get GNU Prolog to read any files, and examples from the documentation gave existence errors. Replaced with Java.
-
-Erlang got replaced because couldn't get used to how it worked. Prolog would have probably gone the same path if I could get it working. Swapped with clojure as it seemed like a nice fit for the day. Replaced by Scala.
-
-Ada was too annoying to work with, both how verbose the language was and gettings its tooling up and running. It is probably fine for larger projects, which it seems to be designed for, but was not great to work with in this setting. Replaced by Pascal.
-
-Remember to write a little note on which languages 
+For a lot of these, what took the most amount of time was how to handle IO and/or strings. I also noticed over time that I adopted a very explicit/imperative style of programming that would work in almost any language without having to think too much on how to solve in that specific language. I gues sit just became solve the problem in a generic way and then find a way to implement that in the new language, which made them not really stand out compared to each other as much as I might have thought beforehand. The use of language specific abstractions disappeared pretty quickly.
+For many languages there were also some trouble getting working compilers and/or completion support for editors. The quality of the documentation and manuals also varies a lot from language to language, and some are almost void of working examples anywhere, which made them harder to work with. Sites like Rosetta Code helped a lot in this regard, but even they don't have examples of everything for every language or every compiler for that language.
+For more obscure languages, if they have a GNU version, those tend to be relatively easy to set up compared to the non-GNU compilers and tools. For the most part these where very comfortable to work with, at least when already using GNU/Linux.
+*** Dropped languages
+ - Carp
+ - Hare
+ - Ada
+ - Erlang
+ - Prolog
+These languages were originally planned to be used in the challenge, but were dropped for various reasons: Carp and Hare for their lack of documentation and working examples. Erlang and Prolog for me not being able to wrap my head around how they work in only a single day, in prolog I also had trouble running code examples on how to read files. Ada was working fine by itself, but I had trouble getting code completions working here, which I couldn't deal with in such a verbose language. They were replaced by the following languages:
+ - Javascript
+ - C#
+ - Java
+ - Scala
+ - Pascal
+All of them are languages I find interesting though, and hopefully I get to revisit them one day. Especially Carp and Prolog are high on my list of new languages to properly try at some point.
+*** Favorite new languages
+ - APL
+ - Haskell
+ - Clojure
+ - Fortran
+ - Julia
+APL for how it handles arrays. My solution in APL is still very verbose to what you would see with an experienced APL programmer, but it was a surprisingly enjoyable experience. When just looking at it I thought it would be a much more frustrating experience with all the weird symbols, but it was one of the more enojyable languages used. I almost regret using it that early instead of saving it for one of the harder problems.
+Haskell was almost bound to be on this list with how much I like Ocaml/ML. It is like those, but better in some areas (composition especially from my little bit of Haskell code) while Ocaml is primarely better at talking with the world outside (IO) and handling impure things.
+Clojure is a Lisp-1. Already sold.
+Fortran was a surprise. It seems annoying for certain things, but for working with any kind of structured data (csv, matrices, etc) it is a very nice experience with parsing, one of the best I had. The language itself I didn't get to learn too much of, so the solution is rather messy, but IO was very nice here.
+Julia was just a nice experience overall. Familiar enough with other languages such as Lua, Python and Common Lisp that I could just sit down and work in it pretty quickly. Doesn't offer much new compared to those languages, but it was a nice mix of features.
+*** Favorite solutions
+ - Haskell (day 6)
+ - Java (day 20)
+ - Scheme (day 2)
+*** Least favorite solutions
+C#, Python, Common Lisp and Ocaml. Maybe it is the bias from knowing these languages and their potential more than the others, but their solutions became, much like many of the others, very procedural/imperative and explicitly stating every step more so than I like them to. The C# solution in addition to this runs really slow. The duplicate code and lack of abstraction-usage in these also annoy me more than in languages I am less familiar with.
+*** Thoughts on each language
+It is limited how many conclusions can be drawn when only briefly touching the language for a day, but these are my first impressions and comments on the languages used.
+**** R
+I do already use R sometimes to handle large amounts of data/large matrices, as it is in general pretty good at reading and writing structured data, and it handles large sparse matrices better than anything else I used. It also has a pretty nice REPL. None of this really mattered for the day I used it, but it is a nice language to work with.
+**** Scheme
+Would without a doubt be my favorite Lisp if it wasn't as fragmented as it is. A very elegant language that is simple to learn and enjoyable to work with as long as you keep it within Scheme and some SRFIs. If you need anything more than pure Scheme though, all the various implementations have different APIs which makes it hard to find what you need, and distributing programs can be a pain. I think it is a language people should really check out if they want to learn a lisp though. Got to use macros for the day 2 solution, and am overall very happy with what I came up with for this day.
+**** APL
+Really enjoyable to work with, almost surprising with all the weird symbols, but it reads and transforms data in a really beautiful way. With more use it might become one of my favorite languages. 
+**** Eiffel
+Very Pascal-like. I didn't get to use much more than the procedural part of it for AoC, but the design-by-contract seems very interesting, especially for larger projects with lots of various constraints. Hopefully I get to revisit this paradigm in either Eiffel or Ada or something else at another time where it might be more useful.
+**** Go
+Not much to say on Go. It is a nice language, but the standard library doesn't give you much.
+**** Haskell
+I was already a big fan of MLs, and Haskell is no exception. Very happy with my solution for the Haskell day.
+**** Lua
+Lua is very easy to throw loads of code at a problem until it works and then have no idea how any of it works anymore as it is just a giant mess at that point.
+**** Python
+Python is always enjoyable. Not a very exciting programming language, but easy to read and reason about.
+**** Common Lisp
+One of my favorite languages. It might not be as elegant as Scheme, but it makes up for it with more uniform implementations that can be more easily swapped for one another, or use the same tooling. The REPL experience of Common Lisp is so far unmatched in my experience.
+**** C
+Simple and efficient. Not much to say on C.
+**** Oz
+Oz holds a special place in my heart for being the first language to really show me the world beyond procedural programming and OOP. It supports almost any programming paradigm in existence (but not all), and was made specifically for programming language teaching and research. The documentation is pretty decent, but there are almost no examples to work with, and the compiler often doesn't tell you much of anything other than something went wrong. It is both incredibly frustrating to work with, and very rewarding.
+**** Ocaml
+One of my favorite languages. The tooling is a bit of a mess, and no one agrees on which standard library to use, but the language it very nice. A good mix of pure functional things and impure things as mutation and IO. Has a nice repl and debugger, though not quite at Common Lisp's level.
+**** Julia
+Loved the multiple dispatch here, and was otherwise just an enjoyable experience. Seems like a very nice language to transform data the way I use R these days.
+**** Javascript
+JS is imo a mess of a combination of Java and Scheme. It is powerful, but messy.
+**** Octave
+I was never a big fan of Matlab, which I have previously used for Image Processing. Octave didn't really change anything here, though I would have probably had a much better experience with it if I was better at vectorizing my functions here, as it wouldn't run so slow.
+**** C#
+Not much to say on C#. Very neutral language, I neither like it nor really dislike it.
+**** C++
+Enjoyable to work with. I didn't get to think too much on modern vs old C++ in my solution, but C++17 and 20 seems like very nice revisions of the language. Was way less annoying than I remembered it being.
+**** Fortran
+Surprisingly enjoyable language to work with. The documentation could be more clear in some places, in particular with IO. Could just parse any structured data directly into the variables they were representing in the code, which was very nice for the data on the day it was used. Would probably be more annoyed at it if I used it on a day with more verbose inputs.
+**** Haxe
+Was less interesting than I had hoped. Very inoffensive language that just lets you do whatever however you want for the most part. The most interesting thing about it is all the targets of the compilers rather than the language itself imo.
+**** Java
+Less annoying than I remember, and probably the JVM language with the least friction to set up. Otherwise same thoughts as C#.
+**** Clojure
+Enjoyable Lisp-1, like Scheme. Bigger standard library and full access to the JVM also makes this a good choice for almost anything. Some annoyances with small differences to other lisps (pairs, car, cdr for the most part in how I used it in my solution) that annoyed me a little, but for people not familiar with lisp wouldn't be noticable. Would heavily recommend for anyone wanting to learn some Lisp.
+**** Pascal
+Procedural king. Not much to say about it, can just write down what you want, step for step, and Pascal will do it. Some annoyances to it cutting strings at 256 characters and defaulting to 16-bit ints, but otherwise simple to work with.
+**** Scala
+Enjoyable functional language, though I wouldn't choose it over any of the ML or Lisp variants.
+**** Rust
+One of my favorite languages. It takes a lot of inspiration from the MLs and puts it into a programming language that runs (slightly in some cases) closer to the metal. Might have the most helpful compiler ever made, the tooling is great and there is beginning to be a lot of resources to learn from.
+**** Zig
+Zig was a big frustration, though I think part of it was the importance of strings in the task it was used for. It does not come with any specific string handling in the standard library, so it is just handled as an array of unsigned 8-bit integers. Normally not a problem if there are also string-related functionality elsewhere, but there were none. Would have probably been fine on a problem with less focus on strings, though I still don't think I would choose it over C, Rust or C++.
+*** Finally
+If you enjoy programming languages, you should read [[https://mitpress.mit.edu/9780262220699/concepts-techniques-and-models-of-computer-programming/][Concepts, Techniques and Models of Computer Programming]] by Peter Van Roy and Seif Haridi. It is a great book for learning about programming languages and their paradigmes. They use Oz to show their examples.
+And finally I will leave you with a quote from my favorite programming talk, [[https://www.youtube.com/watch?v=_ahvzDzKdB0][Growing a Language]] by Guy L. Steele Jr.:
+#+begin_quote
+Should a programming language be small or large? A small programming language
+might take but a short time to learn. A large programming language may take a long, long
+time to learn, but then it is less hard to use, for we then have a lot of words at hand—or,
+I should say, at the tips of our tongues—to use at the drop of a hat. If we start with a
+small language, then in most cases we can not say much at the start. We must first define
+more words; then we can speak of the main thing that is on our mind.
+#+end_quote
+* Instructions and Languages
 ** Compilers/tools needed to run all:
  - R
  - Guile
@@ -23,7 +111,7 @@ Remember to write a little note on which languages
  - Luajit
  - Python 3
  - SBCL
- - GCC
+ - GCC (C, C++, Fortran)
  - Mozart2/Oz
  - Ocaml
  - Julia
@@ -38,6 +126,15 @@ Remember to write a little note on which languages
  - Scala
  - Rustc
  - Zig
+All of them has been ran on Arch linux as of 2022-12-29. To run the examples when the compilers exist, either run
+#+begin_quote
+make -s
+#+end_quote
+in the root directory, or
+#+begin_quote
+make -s dayX-run
+#+end_quote
+to run a specific day. Beware when running all of them that day 15 and 16 have very long runtimes.
 ** Previous usage of the languages used to solve the problems
 *** Fresh usage (within the last year)
  - Scheme
@@ -48,14 +145,14 @@ Remember to write a little note on which languages
  - Rust
  - C#
 *** Long time since last use (several years since last use)
- - Lua
- - C
- - C++
- - Javascript
- - Oz
- - Java
- - Scala
- - Pascal
+ - Lua (2-3 years)
+ - C (5 years)
+ - C++ (6-7 years)
+ - Javascript (can't remember last time I used vanilla JS, though typescript is within the last year)
+ - Oz (6 years)
+ - Java (7 years)
+ - Scala (6 years)
+ - Pascal (10 years)
 *** Never used before (hello world or less)
  - APL
  - Eiffel
@@ -131,7 +228,7 @@ Remember to write a little note on which languages
 - [X] Day 21, Clojure
   - [X] Task 1
   - [X] Task 2, requires maxima to run.
-- [X] Day 22, Pacal
+- [X] Day 22, Pascal
   - [X] Task 1
   - [X] Task 2
 - [X] Day 23, Scala
