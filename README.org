@@ -37,6 +37,7 @@ Remember to write a little note on which languages
  - Free Pascal
  - Scala
  - Rustc
+ - Zig
 ** Previous usage of the languages used to solve the problems
 *** Fresh usage (within the last year)
  - Scheme
@@ -139,9 +140,9 @@ Remember to write a little note on which languages
 - [X] Day 24, Rust
   - [X] Task 1
   - [X] Task 2
-- [ ] Day 25, Zig
-  - [ ] Task 1
-  - [ ] Task 2
+- [X] Day 25, Zig
+  - [X] Task 1
+  - [X] Task 2
 
 * Potential alternatives:
 ** Safe
