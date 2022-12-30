@@ -126,7 +126,11 @@ more words; then we can speak of the main thing that is on our mind.
  - Scala
  - Rustc
  - Zig
-All of them has been ran on Arch linux as of 2022-12-29. To run the examples when the compilers exist, either run
+All of them has been ran on Arch linux as of 2022-12-29. The input and test files from AoC is not included here. All the programs looks for the input in at the following location:
+#+begin_quote
+day-xx/resources/input
+#+end_quote
+To run the examples when the compilers exist, either run
 #+begin_quote
 make -s
 #+end_quote
